@@ -1,0 +1,228 @@
+; latest revision TAW 20160213
+[ molecule ]
+POP5
+
+[ martini ]
+C1 C2 C3 PO4 P1 P2 GL1 GL2 C1A D2A D3A C4A C1B C2B C3B C4B
+
+[ mapping ]
+charmm36
+
+[ atoms ]
+    1   C12   C3  C1 
+    2    H2   C3  C3 C1
+    3    O2   C3  C3 C1
+    4   HO2   C3  C3 C3 C1
+    5   C13   C3  C2
+    6    H3   C3  C3 C2
+    7    O3   C3  C3 C2
+    8   HO3   C3  C3 C3 C2
+    9   C14   C2  C3 
+   10    H4   C2  C2 C3
+   11    O4   C2  P2
+   12    P4   P2  C2 
+   13  OP42   P2  P2 C2
+   14  HP42   P2  P2 P2 C2
+   15  OP43   P2  P2 C2
+   16  OP44   P2  P2 C2
+   17   C15   C2  C1 
+   18    H5   C2  C2 C1
+   19    O5   C2  P1
+   20    P5   P1  C2 
+   21  OP52   P1  P1 C2
+   22  OP53   P1  P1 C2
+   23  OP54   P1  P1 C2
+   24   C16   C1  C2
+   25    H6   C1  C1 C2
+   26    O6   C1  C1 C1 C2
+   27   HO6   C1  C1 C1 C1 C2
+   28   C11   C1  C1  PO4
+   29    H1   C1  C1  C1 PO4
+   30     P   PO4
+   31   O13   PO4
+   32   O14   PO4
+   33   O12   PO4 PO4 PO4 C1
+   34   O11   PO4 PO4 GL1
+   35    C1   GL1 GL1 PO4
+   36    HA   GL1 GL1 PO4
+   37    HB   GL1 GL1 PO4
+   38    C2   GL1 GL1 GL2
+   39    HS   GL1 GL1 GL2
+   40   O21   GL2 GL2 GL1 C1A
+   41   C21   GL2 C1A
+   42   O22   GL2
+   43   C22   C1A C1A GL2
+   44   H2R   C1A C1A GL2
+   45   H2S   C1A C1A GL2
+   46    C3   GL1 GL1 GL2 PO4
+   47    HX   GL1 GL1 GL2 PO4
+   48    HY   GL1 GL1 GL2 PO4
+   49   O31   GL1
+   50   C31   GL1 GL2 C1B
+   51   O32   GL1
+   52   C32   C1B C1B GL1
+   53   H2X   C1B C1B GL1
+   54   H2Y   C1B C1B GL1
+; First tail 
+   55   C23   C1A
+   56   H3R   
+   57   H3S   
+   58   C24   C1A C1A C1A D2A
+   59   H4R   
+   60   H4S   
+   61   C25   D2A C1A
+   62   H5R   
+   63   C26   D2A D2A D2A C1A
+   64   H6R   
+   65   C27   D2A
+   66   H7R   
+   67   H7S   
+   68   C28   D2A D2A D2A D3A
+   69   H8R   
+   70   C29   D2A D2A D3A
+   71   H9R   D2A D3A 
+   72  C210   D3A D3A D2A
+   73  H10R   D3A D2A
+   74  H10S   D3A D2A
+   75  C211   D3A D3A D3A D2A
+   76  H11R   D3A D2A 
+   77  C212   D3A D3A D2A
+   78  H12R   D3A D2A
+   79  C213   D3A D3A D3A C4A
+   80  H13R   
+   81  H13S   
+   82  C214   D3A D3A C4A
+   83  H14R   D3A C4A
+   84  C215   D3A D3A C4A
+   85  H15R   D3A C4A
+   86  C216   C4A C4A C4A D3A
+   87  H16R   
+   88  H16S   
+   89  C217   C4A
+   90  H17R   
+   91  H17S   
+   92  C218   C4A
+   93  H18R   
+   94  H18S   
+   95  C219   C4A
+   96  H19R   
+   97  H19S   
+   98  C220   C4A
+   99  H20R   
+  100  H20S   
+  101  H20T   
+; other tail 
+  102   C33   C1B
+  103   H3X   C1B
+  104   H3Y   C1B
+  105   C34   C1B C1B C2B
+  106   H4X   C1B C1B C2B
+  107   H4Y   C1B C1B C2B
+  108   C35   C1B C2B
+  109   H5X   C1B C2B
+  110   H5Y   C1B C2B
+  111   C36   C2B C2B C1B
+  112   H6X   C2B C2B C1B
+  113   H6Y   C2B C2B C1B
+  114   C37   C2B
+  115   H7X   C2B
+  116   H7Y   C2B
+  117   C38   C2B C2B C2B C3B 
+  118   H8X   C2B C2B C2B C3B
+  119   H8Y   C2B C2B C2B C3B
+  120   C39   C2B C2B C3B
+  121   H9X   C2B C2B C3B
+  122   H9Y   C2B C2B C3B
+  123  C310   C3B C2B
+  124  H10X   C3B C2B
+  125  H10Y   C3B C2B
+  126  C311   C3B C3B C2B
+  127  H11X   C3B C3B C2B
+  128  H11Y   C3B C3B C2B
+  129  C312   C3B
+  130  H12X   C3B
+  131  H12Y   C3B
+  132  C313   C3B C3B C4B
+  133  H13X   C3B C3B C4B
+  134  H13Y   C3B C3B C4B
+  135  C314   C4B C3B
+  136  H14X   C4B C3B
+  137  H14Y   C4B C3B
+  138  C315   C4B C4B C3B
+  139  H15X   C4B C4B C3B
+  140  H15Y   C4B C4B C3B
+  141  C316   C4B
+  142  H16X   C4B
+  143  H16Y   C4B
+  144  C317   C4B
+  145  H17X   C4B
+  146  H17Y   C4B
+  147  C318   C4B
+  148  H18X   C4B
+  149  H18Y   C4B
+  150  H18Z   C4B
+
+;making R stereoisomer- placing HS
+[chiral]
+HS C2 O21 C1 C3
+
+; acyl esters
+[trans]
+C22 C21 O21 C2
+[ out ]
+O22 C21 O21 C22
+[trans]
+C32 C31 O31 C3
+[out]
+O32 C31 O31 C32
+
+;cis bonds in lipid chains
+;[ out ]
+;H91 C29 C28 C210
+;C210 C29 H91 C28
+;C28 C29 H91 C210
+;[ trans ]
+;C211 C210 C29 H91
+;H101 C210 C29 C28
+;H91 C29 C210 C211
+;C28 C29 C210 H101
+[ out ]
+H7R C27 C26 C28
+H7S C27 C26 C28
+C28 C27 C26 H7R
+[ trans ]
+C29 C28 C27 C26
+C210 C29 C28 C27
+H10R C210 C29 C28
+[ out ]
+C211 C210 H10R C29
+H9R C29 C210 C28
+
+;;;making a choline group
+;[out]
+;C14 N C13 C12
+;H14A N C13 C12
+;H14B N C13 C12
+;H14C N C13 C12
+
+[ chiral ]
+H1 C11 C12 O12 C16
+H2 C12 C13 O2 C11
+H3 C13 C14 O3 C12
+H4 C14 O4 C13 C15
+H5 C15 O5 C14 C16
+O12 P O13 O11 O14
+;H15A N C12 C13 C14
+;H15B N C12 C13 C14
+;H15C N C12 C13 C14
+
+; extend the tails
+[ trans ]
+C217 C216 C215 C214
+C17R C216 C215 C214
+C17S C216 C215 C214
+C218 C217 C216 C215
+C18R C217 C216 C215
+C18S C217 C216 C215
+C18T C217 C216 C215
+
