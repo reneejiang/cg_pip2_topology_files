@@ -55,7 +55,7 @@
    8 	Na 	 1 	POP5 	GL2 	 8 	0 	
    9 	C1 	 1 	POP5 	C1A 	 9 	0 	
   10 	C4 	 1 	POP5 	D2A 	10 	0 ; refer to Martini CG PIPC the tail, double bonds 	
-  11 	C4 	 1 	POP5 	D3A 	11 	0 ; Wenjuan modified, change type to C3, more double bonds	
+  11 	C4 	 1 	POP5 	D3A 	11 	0 ; Wenjuan modified, change type to C4, more double bonds	
   12 	C1 	 1 	POP5 	C4A 	12 	0 	
   13 	C1 	 1 	POP5 	C1B 	13 	0 	
   14 	C1 	 1 	POP5 	C2B 	14 	0 	
